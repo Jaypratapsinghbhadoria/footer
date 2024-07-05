@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+body{
+    font-family: Poppins;
+    background-color: white; 
+     /* rgb(46, 50, 69);  */
+}
+.container{
+    width: 1200px;
+    height: 500px;
+    margin: 200px auto;
+    background-color: white; /*rgb(13, 28, 58) */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,8);
+    overflow: hidden;
+    transition: transform 0.40s ease
+}
+.container p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+}
+.container i{
+   padding-left: 10px;
+   font-size: 20px;
+   margin-top: 10px;
+   margin-bottom: 20px;
+   cursor: pointer;
+   transition: .5s;
+}
+.container i:hover{
+    color: gray;
+    
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(210, 212, 213);
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: black;
+}
+li{
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+li:hover{
+    /* display: block; */
+    color: gray;
+    
+}
+.play{
+    float: right;
+    margin-left: 0;
+    width: 150px;
+    cursor: pointer;
+}
+.mac{
+    float: left;
+    margin-left: 0;
+    width: 150px;
+    padding-left: 0;
+    cursor: pointer;
+}
